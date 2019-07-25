@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+.page {
+  background-color: red;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+.page__top {
+  background-color: cyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.page__bottom {
+  background-color: lime;
+}
+.page__bottom-content {
+  padding: 30px 0;
+}
+
+
+.page__content {
+  border: 1px dotted red;
+  padding: 80px 0;
+}
+
+.page__main-button {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 30px;
+}
